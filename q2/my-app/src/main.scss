@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+body{
+    margin: 0;
+    font-family:  'Baloo Bhaijaan 2', cursive !important;
+}
+header{
+    text-align: center;
+    background-color: #072014;
+}
+.login , .register{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+}
+.active{
+    background-color: #198754;
+}
+.not-active{
+    background-color:#6c757d !important;
+}
+.wrapper{
+    width: 50%;
+    margin: auto;
+}
+.email{
+    background-color: transparent !important;
+    border:1px solid #9b9a9a !important;
+    color: #e7e8e9 !important;
+    &:focus{
+      box-shadow: none !important;
+        border:1px solid #9b9a9a !important;
+        background-color: #e7e8e9 !important;
+        color: black !important;
+        direction: ltr;
+        outline: 0;
+     
+    }
+}
+.pass1{
+    background-color: transparent !important;
+    border:1px solid #9b9a9a !important;
+    color: #e7e8e9 !important;
+    &:focus{
+        box-shadow: none !important;
+        border:1px solid #9b9a9a !important;
+        background-color: #e7e8e9 !important;
+        color: black !important;
+        direction: ltr;
+        outline: 0;
+   
+    }
+}
+.btn-submit{
+    width: 100%;
+    border: none !important;
+    margin: 2rem 0;
+    &:focus{
+      box-shadow: none !important;
+      outline: 0 !important;
+    }
+}
+#education{
+    width: 100%;
+    border-radius: 4px;
+    &:focus{
+        box-shadow: none !important;
+        border: none !important;
+        outline: 0;
+    }
+}
+#city{
+    width: 100%;
+    border-radius: 4px;
+    &:focus{
+        box-shadow: none !important;
+        border: none !important;
+        outline: 0 !important;
+    }
+    
+}
+.row{
+    --bs-gutter-x:.5rem !important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.btn-password{
+    width:10%;
+    background-color: transparent !important;
+    border:1px solid #9b9a9a !important;
+    border-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    &:focus{
+        box-shadow: none !important;
+        outline: 0 !important;
+    }
+}
+.password{
+    flex-basis: 90% !important;
+}
+.pass2{
+    border-left: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
